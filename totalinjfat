@@ -1,7 +1,8 @@
 <?php
+
 $q=$_POST["q"];
 $accidentType2=$_POST["accidentType2"];
-
+session_start();
 
 switch ($accidentType2) {
 
@@ -83,8 +84,6 @@ $con = mysql_connect('dangerousroadsnyccom.ipowermysql.com','dangerousrd','dange
 break; 
 
 }
- 
-?>
 
- 
-  
+
+$_SESSION['injuries'] = $injuries;
