@@ -1,4 +1,5 @@
 <?php
+session_start();
 $q=$_POST["q"];
 $accidentType2=$_POST["accidentType2"];
 
@@ -84,7 +85,10 @@ break;
 
 }
  
+$_SESSION['killed'] = $killed; 
 ?>
 
+ 
+  
  
   
