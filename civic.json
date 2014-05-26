@@ -1,0 +1,16 @@
+{
+    "status": "Beta",
+    "thumbnailUrl": "http://d24wuq6o951i2g.cloudfront.net/img/events/id/128/128033/assets/c.H.5a.181.Dangerous-Roads-NYC.png",
+    "bornAt": "BetaNYC Maillist",
+    "geography": "NYC",
+    "politicalEntity":"NYC Department of Transportation",
+    "type":"Web App",
+    "needs": [
+        {"need": "Developer"},
+        {"need": "Graphic Designer"}
+  
+    ],
+    "categories": [
+        {"category": "Vision Zero"}
+    ]
+}
