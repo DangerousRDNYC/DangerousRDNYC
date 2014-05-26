@@ -1,0 +1,137 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}
+
+
+
+
+caption, th, td {text-align:left;font-weight:normal;}
+
+blockquote:before, blockquote:after, q:before, q:after {content:"";}
+blockquote, q {quotes:"" "";}
+a a:hover, a:active, a:focus {outline: 0;} /*Chad - Removed Dotted outline from links */
+a img {border:0;}
+
+/* Default font settings.
+   The font-size percentage is of 16px. (0.75 * 16px = 12px) */
+html {font-size:100.01%;}
+
+
+body {font-size:81.25%;line-height:1.7; }
+
+
+body {color:#373737;background:#fff;font-family:Arial,Helvetica,sans-serif;border-top:0; padding:0 70 0px;}
+
+#topbackground{
+	height:1px;
+}
+#topMenuLayout1{height:110px;}
+
+#bodycontainer{ text-align:center; margin: 0 auto;}
+#bg {background: url(../images/nav_bg.png) repeat-x 0px 58px;}
+
+/* global background image */
+h1, .menu ul, .menu ul li a, #search, #breadcrumb a, #nav-destination a, .h3, .rating, .ic, .list .floatL, #foot li.company a, .list-top span,
+#maps-directions #maps-left input.button, a.button, #maps-right ul.small, #maps-right ul.small a, .home-plan #forms-tripology div input, .home-plan #forms-tripology a, .home-directions .directions fieldset input.button, .home-feature p a, #mcshow li div a, .home-slideshow .prev, .home-slideshow .pause, .home-slideshow .play, .home-slideshow .next, #resultMileage #getDirection {background-image:url(../images/global.gif);background-repeat:no-repeat;}
+/* TYPOGRAPHY */
+
+/* Headings
+
+
+
+-------------------------------------------------------------- */
+
+h1,h2,h3,h4,h5,h6 {font-weight: normal;color:#111;}
+
+h1 {background-position:0 -475px;background-repeat:repeat-x;border:1px solid #e8e8e8;font-size:1.8em;font-weight:bold;line-height:35px;padding-left:5px; height: auto; } /* 42px */
+
+h2 {border-bottom:1px solid #c0bfbf;font-size:1.5em;font-weight:normal;margin-bottom:.65em;} /* 26px */
+h3 {font-size:1.5em;font-weight:bold;line-height:1;margin-bottom:1em;} /* 20px */
+h4 {font-size:1.2em;line-height:1.25;margin-bottom:1.25em;}
+h5 {font-size:.8em;font-weight:bold;margin-bottom:.5em;}
+h6 {font-size:1em;font-weight:bold;}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {margin:0;}
+
+
+
+#left h3 {color:#414141;font-weight:normal;letter-spacing:0;margin:.2em 0 .5em;}
+
+
+
+
+/* CLEARING */
+* html .clear {height:1%;}
+* html #container {height:1%;}
+.clear, #container {display:block;}
+/**/
+
+.clear:after, #container:after {content:"\0020";display:block;height:0;clear:both;visibility:hidden;}
+.clear, #container {display:inline-block;}
+/*\*/
+
+
+.clearB {clear:both;}
+.clearL {clear:left;}
+.clearR {clear:right;}
+
+.alignL {text-align:left;}
+.alignC {text-align:center;}
+.alignR {text-align:right;}
+
+.floatL {float:left;}
+.floatR {float:right;}
+
+.extra-select select {
+    width:330px;
+    margin-left:5px;
+    height:26px;
+    padding:0px;
+    border:none;
+    font-size:16px;
+    background:url(Selector3.png) 0 0 no-repeat;
+   -webkit-appearance: none;
+}
+
+select {
+    width:115px;
+    margin-left:5px;
+    height:26px;
+    padding:0px;
+    border:none;
+    font-size:16px;
+    background:url(Selector.png) 0 0 no-repeat;
+   -webkit-appearance: none;
+}?
+
+
+
+/* NEW HOME PAGE */
+
+
+#rm-home-new .span-one-third-plus h2,
+.new-home-feature h4 {border:0;color:#061a59;font-size:18px;font-weight:bold;line-height:1.25;margin:0 0 8px;padding:0;}
+.new-home-feature p {font-size:12px;line-height:18px;margin:0 0 0px;}
+.new-home-feature a {color:#03f;font-size:13px;font-weight:bold;text-decoration:none;}
+
+#rm-home-new .home-directions, #rm-home-new .directions {border:0;background:none;margin:0;padding:0;width:	;filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);}
+#rm-home-new .directions ul {border-bottom:1px solid #dedede;padding-bottom:8px;}
+#rm-home-new .directions ul li {margin:0 10px 0 0;}
+#rm-home-new .directions ul li label {color:#03f!important;cursor:pointer;font-weight:normal!important;}
+
+
+#rm-home-new .directions fieldset p {clear:both;margin:0 0 3px;}
+#rm-home-new .directions fieldset label {background: url(RedButton.png) ;border:0;clear:left;color:white;display:block;margin:0 0 -10px;float:left;font-size:18px;font-weight:normal;height:35px;line-height:30px;margin:0 0 6px;text-align:center;text-shadow:0 -1px 0 #A33927;width:30px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+#rm-home-new .directions fieldset input {border:0;float:left;font-size:16px;font-family:Arial;height:26px;padding:2px 5px;width:200;	0px;background: transparent url(box.png);margin:0;}
+#rm-home-new .directions fieldset input[type=checkbox] {border:0;float:right;font-size:16px;font-family:Arial;height:26px;padding:2px 1px;width:50;	0px;background: transparent url(box.png);margin:0;}
+#rm-home-new .directions fieldset input[type=submit] {background: url(MapButton.png);float:right;font-weight:bold;height:70px;line-height:70px;margin:20px 0 0!important;text-shadow:0 -1px 0 #047700;width:180px;border:0;color:#fff;cursor:pointer;display:block;font-size:13px;text-align:center;text-decoration:none;}
+#rm-home-new .directions p.small {background:#fff;border:1px solid #dedede;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;width:88px;padding:0 5px 5px;position:absolute;bottom:14px;left:14px;margin:0;text-align:center;}
+#rm-home-new .directions a.floatR {background: url(MapButton.png);font-weight:bold;height:70px;line-height:70px;margin:20px 0 0!important;text-shadow:0 -1px 0 #047700;width:180px;border:0;color:#fff;cursor:pointer;display:block;font-size:13px;text-align:center;text-decoration:none;}
+
+#rm-home-new #mcshow li .infoPan {width:290px;position:absolute;right:0;bottom:20px;padding:10px 15px 30px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-border-top-left-radius:2px;-webkit-border-bottom-left-radius:2px;-moz-border-radius-topleft:2px;-moz-border-radius-bottomleft:2px;border-top-left-radius:2px;border-bottom-left-radius:2px;filter:alpha(opacity=80);-moz-opacity:.8;opacity:.8;}
+#rm-home-new .slideshow li .bx_pager, #rm-home-new .play, #rm-home-new .pause, #rm-home-new .prev, #rm-home-new .next {background-color:transparent;bottom:25px;}
+.content-box {background:#f9f8f9;border:1px solid #dedede;padding:14px;-moz-box-shadow:inset 1px 1px 0 #fff, inset -1px -1px 0 #fff;-webkit-box-shadow:inset 1px 1px 0 #fff, inset -1px -1px 0 #fff;box-shadow:inset 1px 1px 0 #fff, inset -1px -1px 0 #fff;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;}
+.ad300x250-600 {margin:0 0 20px;min-height:276px;max-height:600px;overflow:hidden;width:300px;}
+
+
+				
+
+</style>
